@@ -1,10 +1,10 @@
-package program;
+package game;
 
-public class posicao {
+public class Posicao {
     private Integer linha;
     private Integer coluna;
 
-    public posicao(Integer linha, Integer coluna) {
+    public Posicao(Integer linha, Integer coluna) {
         this.linha = linha;
         this.coluna = coluna;
     }
